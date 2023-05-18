@@ -1,10 +1,13 @@
 @import url("/styles/navbar.css");
 @import url("/styles/header.css");
+@import url("/styles/carousel.css");
+@import url("/styles/topics.css");
 
 :root {
     --background-color: #ebecee;
     --white: #ffffff;
     --orange: #EB9B00;
+    --blue: #002F52;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-main: 'Poppins', sans-serif;
 }
