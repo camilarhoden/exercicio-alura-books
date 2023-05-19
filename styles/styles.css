@@ -2,10 +2,13 @@
 @import url("/styles/header.css");
 @import url("/styles/carousel.css");
 @import url("/styles/topics.css");
+@import url("/styles/contact.css");
+@import url("/styles/footer.css");
 
 :root {
     --background-color: #ebecee;
     --white: #ffffff;
+    --grey: #F9F9F9;
     --orange: #EB9B00;
     --blue: #002F52;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
