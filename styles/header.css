@@ -35,7 +35,7 @@
     background-position: 1em;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
     .header {
         padding: 5em 2em;
     }
@@ -51,7 +51,18 @@
     .header__search {
         width: 50%;
     }
+
     .header__search::placeholder {
-        background-position: 6em;
+        background-position: 4em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .header__search {
+        width: 35%;
+    }
+
+    .header__search::placeholder {
+        background-position: 5.5em;
     }
 }

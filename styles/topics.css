@@ -1,14 +1,14 @@
 .topics {
     background: var(--blue-gradient);
     text-align: center;
-    padding: 1em 0.6em;
+    padding: 1.5em 0.6em;
 }
 
 .topics__title {
     color: var(--white);
     font-weight: 300;
     text-transform: uppercase;
-    margin: 1.5em 0;
+    margin-bottom: 1.5em;
 }
 
 .topics__list {
@@ -30,14 +30,13 @@
     font-weight: 700;
 }
 
-@media screen and (min-width: 1024px) {
-    .topics__title {
-        font-size: 24px;
+@media screen and (min-width: 900px) {
+    .topics {
+        padding: 2em 15vw;
     }
-
-    .topics__list {
-        width: 70%;
-        margin: 0 auto;
+   
+    .topics__title {
+        font-size: 18px;
     }
 
     .topics__item {
@@ -46,5 +45,11 @@
 
     .topics__link {
         font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .topics {
+        padding: 3em 25vw;
     }
 }
