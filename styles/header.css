@@ -35,6 +35,12 @@
     background-position: 1em;
 }
 
+@media screen and (min-width: 630px) {
+    .header__search {
+        width: 60%;
+    }
+}
+
 @media screen and (min-width: 900px) {
     .header {
         padding: 5em 2em;

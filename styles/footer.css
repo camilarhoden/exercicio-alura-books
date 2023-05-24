@@ -11,6 +11,10 @@ hr {
     display: none;
 }
 
+.list-footer__link:hover {
+    color: var(--orange);
+    }
+
 @media screen and (min-width: 1024px) {
     .footer {
         display: flex;

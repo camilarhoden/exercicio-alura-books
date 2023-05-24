@@ -30,6 +30,11 @@
     font-weight: 700;
 }
 
+.topics__link:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    }
+
 @media screen and (min-width: 900px) {
     .topics {
         padding: 2em 15vw;
